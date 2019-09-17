@@ -3,9 +3,10 @@ let joonGrids = (numberOfImages, imageURLs, gridColumns) => {
   let imageGrid = document.querySelectorAll('.joonGrids');
   let images = [];
   let splitImageString = imageURLs.split(', ');
+  let splitImageLength = splitImageString.length;
 
   if(imageGrid && numberOfImages > 1 && numberOfImages === splitImageString) {
-    for(let i = 0; i < splitImageString; i++) {
+    for(let i = 0; i < splitImageLength; i++) {
       images.push({
         image: splitImageString[i]
       })
