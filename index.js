@@ -13,13 +13,19 @@ let joonGrids = (numberOfImages, imageURLs, gridColumns) => {
     }
   }
 
-  return images.map ( item => {
+  let finalImages = images.map ( item => {
     return(
       <div className={`col-xs-12 col-sm-${gridColumns} col-md-${gridColumns} col-lg-${gridColumns}`}>
         <img src={item.image} alt=""/>
       </div>
     )
   })
+
+  return(
+    <div className="row">
+      {finalImages}
+    </div>
+  )
 };
 
 module.exports.joonGrids = joonGrids;
