@@ -15,7 +15,7 @@
       let finalImages = images.map(item => {
         return (
           <div
-            className={`col-xs-12 col-sm-${gridColumns} col-md-${gridColumns} col-lg-${gridColumns}`}
+            className={`col-xs-${gridColumns} col-sm-${gridColumns} col-md-${gridColumns} col-lg-${gridColumns}`}
           >
             <img className="img-responsive" src={item.image} alt="" />
           </div>
