@@ -20,6 +20,6 @@ import {joonGrids} from "joonGrids"
 joonGrids({
   numberOfImages: 4,
   imageURLs: "https://dummyimage.com/300, https://dummyimage.com/300, https://dummyimage.com/300, https://dummyimage.com/300",
-
+  gridColumns: 3
 })
 ```
