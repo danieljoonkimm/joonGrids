@@ -1,6 +1,7 @@
 
-  let joonGrids = (imageURLs, gridColumns) => {
+  let joonGrids = (imageURLs, columns) => {
     let images = [];
+    let gridColumns = columns;
     let splitImageString = imageURLs.split(", ");
     let splitImageLength = splitImageString.length;
 
