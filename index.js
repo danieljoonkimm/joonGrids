@@ -1,6 +1,6 @@
-
-  import './node_modules/bootstrap/dist/css/bootstrap.min.css';
-
+<script type="module" src="ES6-Node.js"></script>
+import './node_modules/bootstrap/dist/css/bootstrap.min.css';
+<script type="text/javascript" src="jquery-3.3.1.js"></script>
   joongrids = (
     options = { header, subHeader, columns: undefined, imageURLs: undefined, style: undefined }
   ) => {
