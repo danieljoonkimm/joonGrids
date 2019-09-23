@@ -1,4 +1,6 @@
 
+  import './node_modules/bootstrap/dist/css/bootstrap.min.css';
+
   joongrids = (
     options = { header, subHeader, columns: undefined, imageURLs: undefined, style: undefined }
   ) => {

@@ -1,6 +1,6 @@
 {
-  "name": "joongridstest",
-  "version": "1.0.1",
+  "name": "joongridstesting1",
+  "version": "1.0.0",
   "description": "Add grid layout for images",
   "main": "index.js",
   "scripts": {
